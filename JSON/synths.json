@@ -1,1 +1,83 @@
-[]
+[
+  {
+    "name": "RetroAccordion",
+    "type": "Synth",
+    "settings": {
+      "volume": -8,
+      "detune": 0,
+      "portamento": "0",
+      "envelope": {
+        "attack": "0.075",
+        "attackCurve": "sine",
+        "decay": "0.145",
+        "decayCurve": "exponential",
+        "release": "1.075",
+        "releaseCurve": "exponential",
+        "sustain": "0.305"
+      },
+      "oscillator": {
+        "partialCount": 0,
+        "partials": [],
+        "phase": 0,
+        "type": "fatsquare",
+        "count": 2,
+        "spread": 23
+      }
+    }
+  },
+  {
+    "name": "Echo",
+    "type": "Synth",
+    "settings": {
+      "volume": -12.999999999999998,
+      "detune": 0,
+      "portamento": "0",
+      "envelope": {
+        "attack": "0.105",
+        "attackCurve": "step",
+        "decay": "0.1",
+        "decayCurve": "exponential",
+        "release": "0.865",
+        "releaseCurve": "bounce",
+        "sustain": "0.205"
+      },
+      "oscillator": {
+        "partialCount": 0,
+        "partials": [],
+        "phase": 44,
+        "type": "fmsine",
+        "harmonicity": 3,
+        "modulationIndex": 5,
+        "modulationType": "sine"
+      }
+    }
+  },
+  {
+    "name": "Plane",
+    "type": "Synth",
+    "settings": {
+      "volume": -9.999999999999998,
+      "detune": 0,
+      "portamento": "0",
+      "envelope": {
+        "attack": "0.045",
+        "attackCurve": "sine",
+        "decay": "0.255",
+        "decayCurve": "exponential",
+        "release": "1.055",
+        "releaseCurve": "step",
+        "sustain": "0.605"
+      },
+      "oscillator": {
+        "partialCount": 1,
+        "partials": [
+          1.2732395447351628
+        ],
+        "phase": 0,
+        "type": "amsquare1",
+        "harmonicity": 1,
+        "modulationType": "sine"
+      }
+    }
+  }
+]
